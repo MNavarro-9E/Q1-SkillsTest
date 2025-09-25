@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Amoria';
+    src: url('fonts/AMORIA.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aurora';
+    src: url('fonts/Aurora.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    color: rgb(81, 71, 146);
+    border: 2px rgb(112, 92, 182) solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 20px rgba(39, 33, 52, 0.5);
+    width: 50%;
+}
+h2 {
+    font-family: 'Aurora';
+    background-color: rgb(232, 222, 241);
+    font-size: 40px;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Amoria';
+}
+.button {
+    background-color: white;
+    color: rgb(141, 111, 174);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid rgb(112, 92, 182);
+    border-radius: 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button:hover {
+    background-color: rgb(112, 92, 182);
+    color: white;
+}
+input, select {
+    border: 1px solid rgb(186, 178, 213);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+}
